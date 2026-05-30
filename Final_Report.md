@@ -7,7 +7,7 @@ After cleaning and exploring the dataset, several key patterns were identified. 
 The analysis also identified repeat customers within the dataset, with Customer C38840 generating the highest total expenditure. Based on these findings, recommendations include increasing inventory before high-demand periods, prioritizing stock for top-selling products, strengthening loyalty initiatives for high-value customers, and investing further in successful referral channels.
 
 
-##Dataset Overview
+## Dataset Overview
 
 Dataset Size:
 - 1200 rows
@@ -24,7 +24,7 @@ Key Features:
 - TotalPrice
 - Date
 
-##Data Cleaning
+## Data Cleaning
 
 - CouponCode contained 309 missing values.
 - Missing coupon values were interpreted as orders without coupons and replaced with "No Coupon".
@@ -32,7 +32,7 @@ Key Features:
 - Duplicate rows checked; no duplicate transactions found.
 - Dataset inspected for illogical values; none were identified.
 
-##Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ![Revenue Distribution](visuals/revenue_distribution.png)
 
@@ -55,32 +55,32 @@ A strongly right skewed distribution
 
 - Quantity and Unit Price showed a strong positive relationship with TotalPrice.
 
-##Revenue Distribution
+## Revenue Distribution
 
 - TotalPrice distribution is strongly right-skewed.
 - Mean TotalPrice exceeds median TotalPrice.
 - A small number of high-value orders contribute disproportionately to revenue.
 
-##Outlier Analysis
+## Outlier Analysis
 
 - Statistical outliers were identified between approximately 3400–3500.
 - Investigation revealed these transactions were legitimate bulk orders rather than anomalies or errors.
 
-##Customer Behavior
+## Customer Behavior
 
 - Repeat customers were identified within the dataset.
 - Customer C38840 generated the highest total spending (₹5723.23).
 
-##Product Performance
+## Product Performance
 
 - Tablets and Printers generated the highest sales volume.
 - Chairs and Printers generated the highest sales revenue.
 
-##Referral Analysis
+## Referral Analysis
 
 - Instagram generated the highest number of referrals among all referral sources.
 
-##Recommendations
+## Recommendations
 
 1. Increase inventory levels for Chairs and Printers to meet observed demand.
 2. Prepare additional inventory before June due to historically higher sales activity.
